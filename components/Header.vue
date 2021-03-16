@@ -81,7 +81,7 @@ export default {
 .gradient {
   font-size: 72px;
   background: -webkit-linear-gradient( #ceb7b7,  #a76571);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 </style>

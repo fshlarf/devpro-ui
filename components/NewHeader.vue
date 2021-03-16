@@ -59,7 +59,7 @@
               </div> -->
             </div>
           </div>
-          <div class="w-full lg:w-1/3 bg-black hidden hero lg:py-40">
+          <div class="w-full lg:w-1/3 hidden hero lg:py-40">
             <!-- <div class="overflow-hidden shadow-xl"> -->
               <img src="~/static/images/hero-4.jpg" class="mt-10"/>
             <!-- </div> -->

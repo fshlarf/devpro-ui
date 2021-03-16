@@ -1,12 +1,13 @@
 <template>
-  <section class="py-20 bg-white">
+  <section class="py-20 bg-black">
+      <FeatureCard />
     <div class="container max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold tracking-tight text-center">Our Features</h2>
         <p class="mt-2 text-lg text-center text-gray-600">Check out our list of awesome features below.</p>
         <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
 
             <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M14 3v4a1 1 0 0 0 1 1h4" />
@@ -20,7 +21,7 @@
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M18 8a3 3 0 0 1 0 6" />
@@ -33,7 +34,7 @@
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
@@ -48,7 +49,7 @@
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M8 9l3 3l-3 3" />
@@ -61,7 +62,7 @@
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <line x1="9.5" y1="11" x2="9.51" y2="11" />
@@ -75,7 +76,7 @@
             </div>
 
             <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                <div class="p-3 text-white bg-blue-500 rounded-full">
+                <div class="p-3 text-white primary rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <line x1="15" y1="5" x2="15" y2="7" />

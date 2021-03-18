@@ -1,5 +1,5 @@
 <template>
-  <div class="relative my-20 primary">
+  <div class="relative mt-20 primary">
     <div class="box-border flex flex-col justify-center items-center content-center px-4 mx-auto md:flex-row md:mt-10 md:py-10 max-w-8xl lg:px-16">
 
         <!-- Image -->
@@ -29,7 +29,7 @@
                             <input type="text" class="block w-full px-4 py-4 mt-1 text-md placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-0 border border-gray-400 bg-transparent rounded-xl" placeholder="Password..." />
                         </div>
                         <div class="relative">
-                            <a href="#_" class="inline-block w-full px-5 py-4 mt-5 text-lg font-bold bg-gray-200 text-center text-black transition duration-200 hover:bg-gray-400 ease rounded-xl">Daftar</a>
+                            <a href="#_" class="inline-block w-full px-5 py-4 mt-5 text-lg font-bold primary text-center text-black transition duration-200 hover:bg-gray-300 hover:text-black ease rounded-xl">Daftar</a>
                         </div>
                     </div>
             </div>

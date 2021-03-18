@@ -1,19 +1,15 @@
 <template>
   <div class="relative md:mt-10">
-    <!-- <img src="~/static/images/testi/testi-bg3.jpg" alt="" class="w-full object-cover fitur-bg"> -->
-    <!-- <div class="absolute z-10 top-0 opacity-80 fitur-layer overflow-hidden w-full bg-black"></div> -->
     <div class="text-white text-center z-20 w-full justify-center items-center mx-auto">
       <h1 class="fit-title text-blues">Devpro Features</h1>
+      <div class="primary-line primary mx-auto"></div>
     </div>
-    <div class="review z-20 w-full px-2 md:px-10 md:ml-5 xl:m-0 xl:px-20 flex flex-wrap justify-center items-center md:block xl:flex">
+    <div class="review z-20 w-full px-2 md:px-10 md:ml-5 xl:m-0 xl:px-40 flex flex-wrap justify-center items-center md:block xl:flex">
       <FeatureCard 
         v-for="user in users"
         :key="user.id"
         :reviewer = "user"
       />
-      <!-- <img src="~/static/images/feature/fitur-1.jpg" alt="">
-      <img src="~/static/images/feature/fitur-2.jpg" alt="">
-      <img src="~/static/images/feature/fitur-3.jpg" alt=""> -->
     </div>
   </div>
 </template>
@@ -60,6 +56,13 @@ export default {
 .fit-title {
   font-size: 36px;
   font-weight: bold;
+}
+
+.primary-line {
+  width: 80px;
+  height: 4px;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {

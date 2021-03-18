@@ -2,13 +2,13 @@
   <footer class="bg-footer xl:px-4 md:pt-10 pb-5">
     <div class="max-w-screen-xxl overflow-hidden lg:px-6 md:flex md:flex-row xl:px-8">
     
-        <div class="items-center text-center p-5 mb-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left lg:w-1/3 md:p-2 md:mr-6 md:border md:border-gray-400">
-            <h1 class="text-gray-300 text-lg">Ikuti <span class="font-bold italic">newsletter</span> kami</h1>
-            <p class="text-gray-400">Daftarkan email kamu untuk mendapatkan info dan layanan terbaru dari Devpro Center</p>
+        <div class="items-center text-center bg-white p-5 mb-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left lg:w-1/3 md:p-4 md:mr-6 md:rounded-xl">
+            <h1 class="text-gray-800 text-lg">Ikuti <span class="font-bold italic">newsletter</span> kami</h1>
+            <p class="text-gray-600">Daftarkan email kamu untuk mendapatkan info dan layanan terbaru dari Devpro Center</p>
             <div class="flex items-center">
-                <input type="text" class="block w-80 px-4 py-2 mx-auto md:mx-0 xl:mr-2 text-md placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-0 border border-gray-400 bg-transparent" placeholder="Email..." />
+                <input type="text" class="block rounded-md w-80 px-4 py-2 mx-auto md:mx-0 xl:mr-2 text-md placeholder-gray-500 focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-0 bg-gray-100" placeholder="Email..." />
                 <div class="relative hidden xl:block">
-                    <a href="#_" class="px-5 py-2 text-md font-bold border border-gray-200 bg-gray-200 text-center text-black transition duration-200 hover:bg-gray-400 ease">Daftar</a>
+                    <a href="#_" class="px-5 py-2 text-md rounded-md font-bold primary text-center text-black transition duration-200 hover:bg-gray-400 ease">Daftar</a>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
       <h1 style="font-size: 24px; font-weight: bold;"> {{ reviewer.name }} </h1>
       <p class="xl:mb-3"> {{ reviewer.review }} </p>
     </div>
-    <img class="hidden md:block md:order-first md:mr-5 lg:mr-10" :src="`_nuxt/static/images/feature/${reviewer.photo}`">
+    <img class="hidden md:block md:order-first md:mr-5 lg:mr-10" :src="`/images/feature/${reviewer.photo}`">
   </div>
 </template>
 

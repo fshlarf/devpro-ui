@@ -40,18 +40,18 @@
     </div>
         
 
-    <div class="px-0 -mt-24 pt-40 pb-20 md:px-10 lg:pt-0 md:pb-0">
-      <div class="d-flex justify-between px-8 mx-auto xl:px-8 md:flex-row">
+    <div class="px-0 -mt-16 pt-40 pb-20 md:px-10 lg:pt-10 md:pb-20">
+      <div class="d-flex justify-around px-8 mx-auto xl:px-8 md:flex-row">
         <div class="flex flex-wrap items-center sm:-mx-3">
           <div class="relative z-10 w-full lg:w-2/3 md:px-3">
-            <div class="space-y-6 d-flex align-items-center my-auto sm:max-w-md lg:max-w-full md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 xl:py-40 md:mt-10">
-              <h1 class="text-4xl text-left tracking-tight text-gray-900">
-                <span class="text-gray-700 font-semibold xl:inline sm:text-5xl md:text-2xl lg:text-3xl xl:text-5xl">Mulai Karir Bersama</span><br>
-                <span class="text-black font-extrabold uppercase text-border sm:text-5xl md:text-4xl lg:text-5xl xl:text-8xl">Devpro Center</span>
-              </h1><hr>
-              <p class="text-left text-gray-600 sm:max-w-md lg:text-xl md:max-w-3xl">
-                Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
-              </p>
+            <div class="space-y-6 d-flex align-items-center my-auto sm:max-w-md lg:max-w-full md:space-y-4 lg:space-y-8 lg:ml-20 xl:space-y-9 sm:pr-5 xl:py-40 md:mt-10">
+              <div class="text-4xl text-left tracking-tight">
+                <h1 class="text-gray-700 font-semibold xl:inline sm:text-5xl md:text-2xl lg:text-3xl xl:text-4xl">Mulai Karir Bersama</h1>
+                <h1 class="text-black font-extrabold uppercase mb-3 sm:text-5xl md:text-4xl lg:text-4xl xl:text-7xl">Devpro Center</h1>
+                <p class="text-left text-gray-600 sm:max-w-md lg:text-lg md:max-w-3xl">
+                  Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
+                </p>
+              </div>
               <!-- <div class="relative flex justify-center text-center sm:space-x-4">
                 <a href="#_" class="flex w-100 px-6 py-3 mb-0 text-lg text-white primary transition duration-200 rounded-full sm:mb-0 hover:bg-black sm:px-auto">
                   Daftar Sekarang

@@ -1,8 +1,8 @@
 <template>
-  <div class="relative testimonial sm:h-100">
-    <img src="~/static/images/testi/testi-bg2.jpg" alt="" class="w-full object-cover testi-bg">
-    <div class="absolute z-10 top-0 opacity-70 dark-layer overflow-hidden w-full bg-black"></div>
-    <div class="review absolute top-20 xl:top-40 z-20 w-full px-2 md:px-10 lg:px-10 xl:px-20 flex flex-wrap justify-center items-center">
+  <div class="relative testimonial my-20 sm:h-100">
+    <!-- <img src="~/static/images/testi/testi-bg2.jpg" alt="" class="w-full object-cover testi-bg">
+    <div class="absolute z-10 top-0 opacity-70 dark-layer overflow-hidden w-full bg-black"></div> -->
+    <div class="review z-20 w-full px-2 md:px-10 lg:px-10 xl:px-20 flex flex-wrap justify-center items-center">
       <ReviewCard 
         v-for="user in users"
         :key="user.id"

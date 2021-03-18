@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div class="back-def">
     <Nuxt />
   </div>
 </template>
@@ -9,8 +9,12 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.back-def {
+  background-color: #F2F1ED;
+}
+
 .primary {
-  background-color: #2b688b;
+  background-color: #F5BE35;
 }
 
 .secondary {
@@ -18,12 +22,12 @@ body {
 }
 
 .text-blues {
-  color: #2b688b !important;
+  color: #F5BE35 !important;
 
 }
 
 a:hover {
-  color: #2b688b !important;
+  color: #F5BE35 !important;
 }
 
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="relative lg:-mb-20 md:mt-20">
-    <img src="~/static/images/testi/testi-bg3.jpg" alt="" class="w-full object-cover fitur-bg">
-    <div class="absolute z-10 top-0 opacity-80 fitur-layer overflow-hidden w-full bg-black"></div>
-    <div class="text-white text-center absolute top-10 z-20 w-full justify-center items-center mx-auto">
+  <div class="relative md:mt-10">
+    <!-- <img src="~/static/images/testi/testi-bg3.jpg" alt="" class="w-full object-cover fitur-bg"> -->
+    <!-- <div class="absolute z-10 top-0 opacity-80 fitur-layer overflow-hidden w-full bg-black"></div> -->
+    <div class="text-white text-center z-20 w-full justify-center items-center mx-auto">
       <h1 class="fit-title text-blues">Devpro Features</h1>
     </div>
-    <div class="review absolute top-20 xl:top-20 z-20 w-full px-2 md:px-10 md:ml-5 xl:m-0 xl:px-20 flex flex-wrap justify-center items-center md:block xl:flex">
+    <div class="review z-20 w-full px-2 md:px-10 md:ml-5 xl:m-0 xl:px-20 flex flex-wrap justify-center items-center md:block xl:flex">
       <FeatureCard 
         v-for="user in users"
         :key="user.id"

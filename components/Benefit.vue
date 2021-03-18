@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-black md:pt-7 md:pb-7 mx-auto md:pt-20 md:pb-24">
+  <section class="w-full md:pt-7 md:pb-7 mx-auto md:pt-20 md:pb-24">
     <div class="box-border flex flex-col justify-center items-center content-center px-8 mx-auto leading-6 md:flex-row md:mt-10 max-w-7xl xl:px-16">
 
         <!-- Image -->
@@ -12,17 +12,17 @@
             <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
                 Pembekalan Materi dan Praktik
             </h2>
-            <p class="pt-4 pb-8 m-0 leading-7 text-gray-100 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-900 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
                 Memberikan pembekalan materi dan praktik yang relevan dengan dunia kerja dan profesional.
             </p>
             <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Dilengkapi dengan video tutorial
                 </li>
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Dilengkapi dengan penjelasan dari mentor berpengalaman
                 </li>
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Praktik langsung yang didampingi mentor berpengalaman
                 </li>
             </ul>
@@ -36,17 +36,17 @@
             <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
                 Kiat Sebagai Profesional
             </h2>
-            <p class="pt-4 pb-8 m-0 leading-7 text-gray-100 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+            <p class="pt-4 pb-8 m-0 leading-7 text-gray-900 border-0 border-gray-300 sm:pr-10 lg:text-lg">
                 Pembekalan pengetahuan dan kiat berkarir sebagai profesional.
             </p>
             <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Persiapan melamar pekerjaan sebagai Software Engineer
                 </li>
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Persiapan interview saat melamar kerja
                 </li>
-                <li class="box-border relative py-1 pl-0 text-left text-gray-300 border-solid">
+                <li class="box-border relative py-1 pl-0 text-left text-gray-600 border-solid">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Panduan berkarir sebagai freelancer
                 </li>
             </ul>
@@ -69,6 +69,6 @@ export default {
 
 <style>
 .bg-blues {
-    background-color: #2b688b;
+    background-color: #F5BE35;
 }
 </style>

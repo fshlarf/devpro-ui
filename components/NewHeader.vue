@@ -1,5 +1,5 @@
 <template>
-  <section class="container-fluid mx-auto antialiased select-none">
+  <section class="container mx-auto antialiased select-none">
     <div class="mx-auto max-w-9xl">
         <nav class="relative z-50 h-16" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-16 mx-auto font-medium lg:justify-center sm:px-4 md:px-2">
@@ -12,8 +12,8 @@
                         class="d-inline-block align-center"
                     />
                 </nuxt-link>
-                <div class="top-0 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:w-3/4 md:absolute lg:text-base md:h-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed show': showMenu, 'hidden': !showMenu }">
-                    <div class="flex-col pt-0 w-full h-auto overflow-hidden bg-gray-900 rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
+                <div class="-top-2 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:w-3/4 md:absolute lg:text-base md:h-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed show': showMenu, 'hidden': !showMenu }">
+                    <div class="flex-col pt-5 w-full h-auto overflow-hidden back-def rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                         <div class="flex flex-col items-start justify-center w-full text-center md:mt-0 md:flex-row md:items-center">
                             <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-blues md:w-auto md:px-0 md:mx-2 xl:mx-7 md:text-center">Home</a>
                             <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Benefit</a>
@@ -40,38 +40,25 @@
     </div>
         
 
-    <div class="px-0 -mt-16 pt-40 pb-20 md:px-10 lg:pt-10 md:pb-20">
-      <div class="d-flex justify-around px-8 mx-auto xl:px-8 md:flex-row">
-        <div class="flex flex-wrap items-center sm:-mx-3">
-          <div class="relative z-10 w-full lg:w-2/3 md:px-3">
-            <div class="space-y-6 d-flex align-items-center my-auto sm:max-w-md lg:max-w-full md:space-y-4 lg:space-y-8 lg:ml-20 xl:space-y-9 sm:pr-5 xl:py-40 md:mt-10">
-              <div class="text-4xl text-left tracking-tight">
-                <h1 class="text-gray-700 font-semibold xl:inline sm:text-5xl md:text-2xl lg:text-3xl xl:text-4xl">Mulai Karir Bersama</h1>
-                <h1 class="text-black font-extrabold uppercase mb-3 sm:text-5xl md:text-4xl lg:text-4xl xl:text-7xl">Devpro Center</h1>
-                <p class="text-left text-gray-600 sm:max-w-md lg:text-lg md:max-w-3xl">
-                  Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
-                </p>
-              </div>
-              <!-- <div class="relative flex justify-center text-center sm:space-x-4">
-                <a href="#_" class="flex w-100 px-6 py-3 mb-0 text-lg text-white primary transition duration-200 rounded-full sm:mb-0 hover:bg-black sm:px-auto">
-                  Daftar Sekarang
-                </a>
-              </div> -->
-            </div>
+        <div class="relative flex flex-wrap justify-around md:mx-auto">
+          <div class="relative z-10 w-full lg:w-1/2 my-10 px-8 md:max-w-2xl md:mt-40 md:mb-24 xl:mt-48 tracking-tight">
+            <h1 class="text-gray-800 text-2xl lg:ml-1 font-semibold md:text-2xl lg:text-3xl xl:text-4xl">Mulai Karir Bersama</h1>
+            <h1 class="text-black text-4xl font-extrabold uppercase mb-3 md:text-4xl lg:text-4xl xl:text-7xl">Devpro Center</h1>
+            <p class="text-left text-lg lg:ml-1 text-gray-700 sm:max-w-md md:text-lg md:max-w-2xl">
+              Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
+            </p>
           </div>
-          <div class="absolute z-0 left-0 object-cover w-full h-40 hidden hero py-4">
+          <div class="relative z-10 w-full hidden items-center lg:block lg:w-1/3 lg:-pl-20 lg:pt-32 lg:pb-36">
             <div class="overflow-hidden">
-              <img src="~/static/images/raw/yellow/8116.png" class="object-cover w-full" style="height: 750px"/>
+              <img src="/images/coding3.svg" class="rounded-xl" style="width: 100%"/>
             </div>
           </div>
-          <!-- <div class="w-full lg:w-1/3 hidden hero lg:py-40">
-            <div class="overflow-hidden shadow-xl">
-              <img src="~/static/images/raw/yellow/8116.png" class="mt-10"/>
+          <div class="absolute z-0 left-0 object-cover w-full hidden md:block md:-top-24 lg:-top-20 xl:top-0">
+            <div class="overflow-hidden">
+              <img src="/images/raw/yellow/8116d.png" class="object-cover" style="width: 100%; height: 700px"/>
             </div>
-          </div> -->
+          </div>
         </div>
-      </div>
-    </div>
 
    
   </section>

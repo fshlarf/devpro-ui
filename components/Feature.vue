@@ -1,10 +1,10 @@
 <template>
-  <div class="relative md:mt-10">
-    <div class="text-white text-center z-20 w-full justify-center items-center mx-auto">
-      <h1 class="fit-title text-blues">Devpro Features</h1>
+  <div class="relative mb-10 xl:max-w-7xl xl:mx-auto">
+    <div class="relative z-10 text-center w-full justify-center items-center">
+      <h1 class="fitur-title text-blues">Devpro Features</h1>
       <div class="primary-line primary mx-auto"></div>
     </div>
-    <div class="review z-20 w-full px-2 md:px-10 md:ml-5 xl:m-0 xl:px-40 flex flex-wrap justify-center items-center md:block xl:flex">
+    <div class="relative z-10 px-2 justify-center items-center lg:flex">
       <FeatureCard 
         v-for="user in users"
         :key="user.id"
@@ -35,7 +35,7 @@ export default {
           "id" : 3,
           "name" : "Menyesuaikan Dunia Kerja",
           "photo" : "fitur-3.jpg",
-          "review" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores."
+          "review" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit."
         }
       ]
     }
@@ -53,7 +53,7 @@ export default {
   height: 550px;
 }
 
-.fit-title {
+.fitur-title {
   font-size: 36px;
   font-weight: bold;
 }

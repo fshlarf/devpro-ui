@@ -1,10 +1,10 @@
 <template>
-  <div class="relative testimonial my-20 sm:h-100">
-    <div class="text-white text-center z-20 w-full justify-center items-center mx-auto">
-      <h1 class="fit-title text-blues">Devpro Mentors</h1>
+  <div class="relative testimonial my-10">
+    <div class="text-white text-center w-full justify-center items-center mx-auto">
+      <h1 class="testi-title text-blues">Devpro Mentors</h1>
       <div class="primary-line primary mx-auto"></div>
     </div>
-    <div class="review z-20 w-full px-2 md:px-10 lg:px-10 xl:px-20 flex flex-wrap justify-center items-center">
+    <div class="w-full px-2 flex flex-wrap justify-center items-center">
       <ReviewCard 
         v-for="user in users"
         :key="user.id"
@@ -49,8 +49,9 @@ export default {
   height: 550px;
 }
 
-.dark-layer {
-  height: 550px;
+.testi-title {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .primary-line {
@@ -58,33 +59,6 @@ export default {
   height: 4px;
   margin-top: 0.6rem;
   margin-bottom: 1rem;
-}
-
-@media only screen and (max-width: 1024px) {
-  .testi-bg {
-    height: 670px;
-  }
-  .dark-layer {
-    height: 670px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .testi-bg {
-    height: 920px;
-  }
-  .dark-layer {
-    height: 920px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .testi-bg {
-    height: 1000px;
-  }
-  .dark-layer {
-    height: 1000px;
-  }
 }
 
 </style>

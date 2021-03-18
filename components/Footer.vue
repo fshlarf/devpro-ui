@@ -2,7 +2,7 @@
   <footer class="bg-footer xl:px-4 md:pt-10 pb-5">
     <div class="max-w-screen-xxl overflow-hidden lg:px-6 md:flex md:flex-row xl:px-8">
     
-        <div class="items-center text-center bg-white p-5 mb-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left lg:w-1/3 md:p-4 md:mr-6 md:rounded-xl">
+        <div class="items-center text-center bg-white pt-20 p-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left md:p-4 md:mr-6 md:rounded-xl lg:w-1/3">
             <h1 class="text-gray-800 text-lg">Ikuti <span class="font-bold italic">newsletter</span> kami</h1>
             <p class="text-gray-600">Daftarkan email kamu untuk mendapatkan info dan layanan terbaru dari Devpro Center</p>
             <div class="flex items-center">

@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto antialiased select-none">
+  <section class="mx-auto antialiased select-none">
     <div class="mx-auto max-w-9xl">
         <nav class="relative z-50 h-16" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-16 mx-auto font-medium lg:justify-center sm:px-4 md:px-2">
@@ -40,26 +40,26 @@
     </div>
         
 
-        <div class="relative flex flex-wrap justify-around md:mx-auto">
-          <div class="relative z-10 w-full lg:w-1/2 my-10 px-8 md:max-w-2xl md:mt-40 md:mb-24 xl:mt-48 tracking-tight">
-            <h1 class="text-gray-800 text-2xl lg:ml-1 font-semibold md:text-2xl lg:text-3xl xl:text-4xl">Mulai Karir Bersama</h1>
-            <h1 class="text-black text-4xl font-extrabold uppercase mb-3 md:text-4xl lg:text-4xl xl:text-7xl">Devpro Center</h1>
-            <p class="text-left text-lg lg:ml-1 text-gray-700 sm:max-w-md md:text-lg md:max-w-2xl">
-              Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
-            </p>
-          </div>
-          <div class="relative z-10 w-full hidden items-center lg:block lg:w-1/3 lg:-pl-20 lg:pt-32 lg:pb-36">
-            <div class="overflow-hidden">
-              <img src="/images/coding3.svg" class="rounded-xl" style="width: 100%"/>
-            </div>
-          </div>
-          <div class="absolute z-0 left-0 object-cover w-full hidden md:block md:-top-24 lg:-top-20 xl:top-0">
-            <div class="overflow-hidden">
-              <img src="/images/raw/yellow/8116d.png" class="object-cover" style="width: 100%; height: 700px"/>
-            </div>
-          </div>
+    <div class="relative flex flex-wrap justify-around md:mx-auto">
+      <div class="relative z-10 w-full lg:w-1/2 my-10 px-8 md:max-w-2xl md:mt-40 md:mb-24 xl:mt-48 tracking-tight">
+        <h1 class="text-gray-800 text-2xl lg:ml-1 font-semibold md:text-2xl lg:text-3xl xl:text-4xl">Mulai Karir Bersama</h1>
+        <h1 class="text-black text-4xl font-extrabold uppercase mb-3 md:text-4xl lg:text-4xl xl:text-7xl">Devpro Center</h1>
+        <p class="text-left text-lg lg:ml-1 text-gray-700 sm:max-w-md md:text-lg md:max-w-2xl">
+          Dapatkan skill dan pengalaman untuk memasuki dunia karir profesional dengan mengikuti Bootcamp, Training dan Workshop yang diadakan oleh Devpro Center
+        </p>
+      </div>
+      <div class="relative z-10 w-full hidden items-center lg:block lg:w-1/3 lg:-pl-20 lg:pt-32 lg:pb-36">
+        <div class="overflow-hidden">
+          <img src="/images/coding3.svg" class="rounded-xl" style="width: 100%"/>
         </div>
+      </div>
+    </div>
 
+    <div class="absolute z-0 w-full hidden md:block md:-top-10 lg:-top-5 xl:top-20">
+      <div class="overflow-hidden">
+        <img src="/images/raw/yellow/8116d.png" class="object-cover w-full" style="width: 100%; height: 700px"/>
+      </div>
+    </div>
    
   </section>
 </template>

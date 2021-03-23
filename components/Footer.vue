@@ -98,8 +98,8 @@ export default {
 </script>
 
 <style>
-.bg-footer {
-    /* background: -webkit-linear-gradient( #F5BE35, black); */
-    /* background: -webkit-linear-gradient( black, #1b3152); */
-}
+/* .bg-footer {
+    background: -webkit-linear-gradient( #F5BE35, black);
+    background: -webkit-linear-gradient( black, #1b3152);
+} */
 </style>

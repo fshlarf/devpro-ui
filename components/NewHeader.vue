@@ -17,8 +17,9 @@
                         <div class="flex flex-col items-start justify-center w-full text-center md:mt-0 md:flex-row md:items-center">
                             <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-blues md:w-auto md:px-0 md:mx-2 xl:mx-7 md:text-center">Home</a>
                             <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Benefit</a>
-                            <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Teknologi</a>
-                            <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Kontak</a>
+                            <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Features</a>
+                            <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Tools</a>
+                            <a href="#" class="inline-block w-full px-6 py-2 mx-0 font-medium text-left text-gray-800 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 xl:mx-7 md:text-center">Mentors</a>
                         </div>
                         <div class="flex justify-center pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
                             <span class="inline-flex w-100 shadow-sm md:rounded-full md:w-auto">
@@ -60,7 +61,7 @@
         <img src="/images/raw/yellow/8116d.png" class="object-cover w-full" style="width: 100%; height: 700px"/>
       </div>
     </div>
-   
+
   </section>
 </template>
 
@@ -85,19 +86,5 @@ export default {
     display: block;
 }
 
-.bg-header {
-  background: -webkit-linear-gradient( #1b3152, black);
-}
-
-@media only screen and (min-width: 1024px) {
-  .bg-header {
-    height: 40rem;
-  }
-  .hero {
-    height: 40rem;
-    margin: 0 auto;
-    display: block;
-  }
-}
 
 </style>

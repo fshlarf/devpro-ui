@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mb-10 xl:max-w-7xl xl:mx-auto">
+  <div class="relative z-10 mb-10 xl:max-w-7xl xl:mx-auto">
     <div class="relative z-10 text-center w-full justify-center items-center">
       <h1 class="fitur-title text-blues">Devpro Features</h1>
       <div class="primary-line primary mx-auto"></div>
@@ -11,6 +11,7 @@
         :reviewer = "user"
       />
     </div>
+
   </div>
 </template>
 

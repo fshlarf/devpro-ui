@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-footer xl:px-4 md:pt-10 pb-5">
+  <footer class="bg-black xl:px-4 md:pt-10 pb-5">
     <div class="max-w-screen-xxl overflow-hidden lg:px-6 md:flex md:flex-row xl:px-8">
     
         <div class="items-center text-center bg-white pt-20 p-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left md:p-4 md:mr-6 md:rounded-xl lg:w-1/3">
@@ -17,32 +17,32 @@
             <nav class="flex flex-wrap justify-center -mx-5 -my-2">
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Tentang
+                        About Us
                     </a>
                 </div>
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Blog
+                        Benefit
                     </a>
                 </div>
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Tim
+                        Features
                     </a>
                 </div>
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Biaya
+                        Tools
                     </a>
                 </div>
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Kontak
+                        Mentors
                     </a>
                 </div>
                 <div class="px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                        Syarat & ketentuan
+                        Contact Us 
                     </a>
                 </div>
             </nav>
@@ -99,6 +99,7 @@ export default {
 
 <style>
 .bg-footer {
-    background: -webkit-linear-gradient( black, #1b3152);
+    /* background: -webkit-linear-gradient( #F5BE35, black); */
+    /* background: -webkit-linear-gradient( black, #1b3152); */
 }
 </style>

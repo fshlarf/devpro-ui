@@ -1,0 +1,6 @@
+{
+  "prettier.jsxBracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.useTabs": true,
+  "vetur.format.defaultFormatter.html": "none"
+}

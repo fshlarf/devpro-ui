@@ -12,13 +12,13 @@
                 Memberikan pembekalan materi dan praktik yang relevan dengan dunia kerja dan profesional.
             </p>
             <ul class="leading-7">
-                <li class="text-left text-gray-600">
+                <li class="text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Dilengkapi dengan video tutorial
                 </li>
-                <li class="text-left text-gray-600">
+                <li class="text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Dilengkapi dengan penjelasan dari mentor berpengalaman
                 </li>
-                <li class="text-left text-gray-600">
+                <li class="text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Praktik langsung yang didampingi mentor berpengalaman
                 </li>
             </ul>
@@ -42,13 +42,13 @@
                 Pembekalan pengetahuan dan kiat berkarir sebagai profesional.
             </p>
             <ul class="leading-7">
-                <li class="relative text-left text-gray-600">
+                <li class="relative text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Persiapan melamar pekerjaan sebagai Software Engineer
                 </li>
-                <li class="relative text-left text-gray-600">
+                <li class="relative text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Persiapan interview saat melamar kerja
                 </li>
-                <li class="relative text-left text-gray-600">
+                <li class="relative text-left text-gray-900">
                     <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-blues rounded-full"><span class="text-sm font-bold">✓</span></span> Panduan berkarir sebagai freelancer
                 </li>
             </ul>

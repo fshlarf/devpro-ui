@@ -52,4 +52,8 @@ input {
     color: rgb(107, 107, 107);
 }
 
+.bg-register {
+    background-color: black;
+    /* background: -webkit-linear-gradient( #F5BE35, #F5BE35, #ffea00); */
+}
 </style>

@@ -1,25 +1,20 @@
 <template>
-  <div>
-    <!-- <Header /> -->
-    <!-- <Hero /> -->
-    <NewHeader />
+  <div class="">
+    <Navbar />
+    <Header />
     <Benefit />
     <Feature />
-    <NewTools />
-    <!-- <Tools /> -->
-    <!-- <Features /> -->
-    <Testimonial />
+    <Tools />
+    <Mentors />
     <Register />
-    <!-- <Pricing /> -->
-    <!-- <Testimonials/> -->
-    <!-- <Registration /> -->
-    <!-- <Contact /> -->
     <Footer />
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
-<style></style>
+<style>
+
+</style>

@@ -1,16 +1,20 @@
 <template>
-  <div class="relative z-10 mb-10 xl:max-w-7xl xl:mx-auto">
-    <div class="relative z-10 text-center w-full justify-center items-center">
-      <h1 class="fitur-title text-blues">Devpro Features</h1>
-      <div class="primary-line primary mx-auto"></div>
+  <div class="bg-gray-100 md:py-20">
+    <div class="relative z-10 mb-10 xl:max-w-7xl xl:mx-auto">
+      <div class="relative z-10 text-center w-full justify-center items-center">
+        <h1 class="fitur-title text-test">Devpro Features</h1>
+        <div class="primary-line bg-test mx-auto"></div>
+      </div>
+      <div class="relative z-10 px-2 justify-center items-center lg:flex">
+        <FeatureCard 
+          v-for="user in users"
+          :key="user.id"
+          :reviewer = "user"
+        />
+      </div>
+
     </div>
-    <div class="relative z-10 px-2 justify-center items-center lg:flex">
-      <FeatureCard 
-        v-for="user in users"
-        :key="user.id"
-        :reviewer = "user"
-      />
-    </div>
+<!-- <button class="transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ..."> -->
 
   </div>
 </template>
@@ -57,6 +61,10 @@ export default {
 .fitur-title {
   font-size: 36px;
   font-weight: bold;
+}
+
+.back-fit {
+  background-color: #548ffd;
 }
 
 .primary-line {

@@ -1,12 +1,12 @@
 <template>
-  <div class="relative my-20 bg-gray-100">
-    <div class="absolute z-0 w-full hidden md:block md:-top-10 lg:-top-5 xl:top-0">
+  <div class="relative py-10 bg-gray-100 md:py-20 xl:bg-white">
+    <div class="absolute z-0 w-full hidden md:block xl:top-32">
       <div class="overflow-hidden">
-        <img src="/images/banner2.svg" class="object-cover h-full" style="height: 100%;"/>
+        <img src="/images/banner2.svg" class="hidden xl:block object-cover h-full" style="height: 100%;"/>
       </div>
     </div>
     <div class="relative z-10 text-white text-center w-full justify-center items-center mx-auto">
-      <h1 class="testi-title text-test">Devpro Mentors</h1>
+      <h1 class="mentor-title text-test">Devpro Mentors</h1>
       <div class="primary-line bg-test mx-auto"></div>
     </div>
     <div class="relative z-10 w-full px-2 flex flex-wrap justify-center items-center">
@@ -50,11 +50,7 @@ export default {
 
 <style>
 
-.testi-bg {
-  height: 550px;
-}
-
-.testi-title {
+.mentor-title {
   font-size: 36px;
   font-weight: bold;
 }

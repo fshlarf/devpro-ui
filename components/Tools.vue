@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 px-5 lg:pb-10">
+  <section class="bg-gray-100 px-5 pb-10 lg:pb-20">
 
     <div class="flex flex-col items-center max-w-8xl xl:flex-col xl:mx-auto">
       <div class="max-w-2xl xl:w-1/3">
@@ -8,7 +8,7 @@
         <p class="text-lg text-center text-gray-800 mb-5 xl:text-center">Kuasai Bahasa Pemrograman dan Framework yang Diperlukan untuk Menjadi Web Developer Profesional</p>
       </div>
 
-      <div class="container bg-white justify-center p-4 mx-auto rounded-xl shadow-lg md:shadow-none lg:p-10 xl:w-2/3 xl:max-w-3xl">
+      <div class="container bg-white justify-center p-4 mx-auto rounded-xl md:shadow-xl lg:p-10 xl:w-2/3 xl:max-w-3xl">
         <div class="max-w-4xl mx-auto flex flex-wrap items-center justify-center gap-y-8">
           <div class="flex items-center justify-center" style="width: 25%;">
             <img src="~/static/images/tools/html.svg" alt="Html" class="block object-contain h-16"/>

@@ -40,8 +40,8 @@ body {
   margin-bottom: 1rem;
 }
 
-a:hover {
+/* a:hover {
   color: #F5BE35 !important;
-}
+} */
 
 </style>

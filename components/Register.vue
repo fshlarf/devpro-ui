@@ -1,8 +1,8 @@
 <template>
-  <div class="relative mt-10 md:px-5 xl:my-10">
+  <div class="relative mt-10 md:px-5 md:my-10">
     <div class="flex flex-col justify-around mx-auto max-w-9xl md:flex-row md:py-10 xl:justify-center">
 
-        <div class="hidden absolute z-0 top-0 right-0 rounded-3xl md:block bg-register" style="width: 50%; height: 100%"></div>
+        <div class="hidden absolute z-0 top-0 md:right-10 lg:right-20 xl:right-0 rounded-3xl md:block bg-register" style="width: 50%; height: 100%"></div>
         
         <!-- Image -->
         <div class="relative max-w-md hidden md:w-1/3 md:block xl:w-1/2 xl:mx-20">
@@ -32,7 +32,7 @@
                                 <input type="text" class="block w-full p-4 mt-1 text-md placeholder-gray-500 focus:outline-none focus:ring-opacity-0 border border-gray-400 rounded-xl" placeholder="Password..." />
                             </div>
                             <div class="relative">
-                                <a href="#_" class="inline-block w-full p-5 mt-5 text-lg font-bold bg-test text-center text-white transition duration-200 hover:bg-black ease rounded-xl">Daftar</a>
+                                <a href="#_" class="inline-block w-full p-5 mt-5 text-lg font-bold bg-test text-center text-white transition duration-200 btn-dftr ease rounded-xl">Daftar</a>
                             </div>
                         </div>
                 </div>
@@ -55,8 +55,10 @@ input {
 }
 
 .bg-register {
-    /* background-color: #6597dd; */
     background-image: linear-gradient(to right, #7cdaf1, #ffffff);
-    /* background: -webkit-linear-gradient( #F5BE35, #F5BE35, #ffea00); */
+}
+
+.btn-dftr:hover {
+    background-color: #7cdaf1;
 }
 </style>

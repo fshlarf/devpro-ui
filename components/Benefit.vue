@@ -58,13 +58,7 @@
           <!-- End  Content -->
       </div>
     </div>
-
-    <!-- <div class="absolute z-0 top-0 w-full hidden md:block md:top-40 lg:top-36 xl:top-20">
-        <div class="overflow-hidden">
-            <img src="/images/raw/yellow/8116e.png" class="object-cover w-full" style="height: 100%"/>
-        </div>
-    </div> -->
-    <div class="w-full" style="height: 700px"></div>
+    <div class="relative ben-layer w-full"></div>
   </section>
 </template>
 
@@ -75,8 +69,14 @@ export default {
 </script>
 
 <style>
-.bg-blues {
-    background-color: #F5BE35;
+
+.ben-layer {
+    height: 1200px;
 }
 
+@media only screen and (min-width: 576px) {
+  .ben-layer {
+    height: 700px;
+  }
+}
 </style>

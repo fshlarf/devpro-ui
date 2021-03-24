@@ -1,8 +1,8 @@
 <template>
-  <footer class="bg-gray-900 xl:px-4 md:pt-10 pb-5">
-    <div class="max-w-screen-xxl overflow-hidden lg:px-6 md:flex md:flex-row xl:px-8">
+  <footer>
+    <div class="max-w-screen-xxl overflow-hidden bg-gray-900 md:py-10 md:flex md:flex-row lg:px-6 xl:px-8">
     
-        <div class="items-center text-center bg-white pt-20 p-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left md:p-4 md:mr-6 md:rounded-xl lg:w-1/3">
+        <div class="items-center text-center bg-white p-5 mx-auto max-w-screen-xxl space-y-2 md:w-1/2 md:text-left md:p-4 md:mr-6 md:rounded-xl lg:w-1/3">
             <h1 class="text-gray-800 text-lg">Ikuti <span class="font-bold italic">newsletter</span> kami</h1>
             <p class="text-gray-600">Daftarkan email kamu untuk mendapatkan info dan layanan terbaru dari Devpro Center</p>
             <div class="flex items-center">
@@ -13,40 +13,71 @@
             </div>
         </div>
 
-        <div class="max-w-screen-xxl p-2 space-y-8 overflow-hidden sm:px-6 md:w-1/2 lg:w-2/3 md:order-first">
-            <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        About Us
-                    </a>
+        <div class="max-w-screen-xxl px-6 p-5 md:p-2 space-y-6 overflow-hidden md:w-2/3 md:order-first lg:w-2/3">
+            <div class="flex justify-around md:flex-row lg:w-2/3">
+                <nuxt-link class="hidden navbar-brand d-block align-center -mt-3 lg:block" to="/">
+                    <img
+                        src="/images/devpro.png"
+                        width="150"
+                        height="150"
+                        alt="image not found"
+                        class="d-inline-block align-center"
+                    />
+                </nuxt-link>
+
+                <nav class="flex-col justify-center md:flex-col">
+                    <div class="px-5 pb-2">
+                        <h1 class="text-lg leading-6 font-semibold text-gray-200">
+                            Sitemap
+                        </h1>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <a href="#" class="text-sm leading-6 text-gray-500 hover:text-gray-300">
+                            Benefit
+                        </a>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <a href="#" class="text-sm leading-6 text-gray-500 hover:text-gray-300">
+                            Fitur
+                        </a>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <a href="#" class="text-sm leading-6 text-gray-500 hover:text-gray-300">
+                            Workshop
+                        </a>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <a href="#" class="text-sm leading-6 text-gray-500 hover:text-gray-300">
+                            Tools
+                        </a>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <a href="#" class="text-sm leading-6 text-gray-500 hover:text-gray-300">
+                            Pengajar 
+                        </a>
+                    </div>
+                </nav>
+
+                <div>
+                    <div class="px-5 pb-2">
+                        <h1 class="text-lg leading-6 font-semibold text-gray-200">Hubungi Kami</h1>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <p class="text-sm leading-6 text-gray-500">Phone: <span class="text-gray-400">021-3110-6999</span></p>
+                    </div>
+                    <div class="px-5 pb-1">
+                        <p class="text-sm leading-6 text-gray-500">Email: <span class="text-gray-400">help@devpro.com</span></p>
+                    </div>
                 </div>
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        Benefit
-                    </a>
-                </div>
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        Features
-                    </a>
-                </div>
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        Tools
-                    </a>
-                </div>
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        Mentors
-                    </a>
-                </div>
-                <div class="px-5 py-2">
-                    <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-300">
-                        Contact Us 
-                    </a>
-                </div>
-            </nav>
-            <div class="flex justify-center mt-8 space-x-6">
+            </div>
+            
+         </div>
+
+    </div>
+
+    <div class="flex-block mx-auto px-10 py-5 space-y-5 bg-gray-800 md:flex md:flex-row md:justify-between md:space-y-0">
+        <!-- <div> -->
+            <div class="flex justify-center space-x-6">
                 <a href="#" class="text-gray-400 hover:text-gray-200">
                     <span class="sr-only">Facebook</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -78,13 +109,14 @@
                     </svg>
                 </a>
             </div>
+
+        <!-- </div> -->
+        <div>
+            <p class="text-base leading-6 text-center text-gray-400">
+                &copy; 2021 Devpro Center. All rights reserved.
+            </p>
         </div>
-
     </div>
-
-    <p class="mt-5 text-base leading-6 text-center text-gray-400">
-        &copy; 2021 Devpro. All rights reserved.
-    </p>
 
 </footer>
 </template>

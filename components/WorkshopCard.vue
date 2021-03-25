@@ -3,20 +3,20 @@
     class="card max-w-sm bg-white shadow-2xl rounded-xl text-gray-900 text-center p-5 m-2"
   >
     <img
-      :src="`/images/testi/${reviewer.photo}`"
-      class="w-20 mx-auto mb-3 rounded-full"
+      :src="`/images/workshop/${course.poster}`"
+      class="w-full mx-auto mb-3"
     />
     <h1 style="font-size: 24px; font-style:italic; font-weight: bold;">
-      {{ reviewer.name }}
+      {{ course.name }}
     </h1>
-    <p>" {{ reviewer.review }} "</p>
+    <p>" {{ course.preview }} "</p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    reviewer: {
+    course: {
       type: Object,
       default: {}
     }

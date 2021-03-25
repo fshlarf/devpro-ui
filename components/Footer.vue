@@ -13,8 +13,8 @@
             </div>
         </div>
 
-        <div class="max-w-screen-xxl px-6 p-5 md:p-2 space-y-6 overflow-hidden md:w-2/3 md:order-first lg:w-2/3">
-            <div class="flex justify-around md:flex-row lg:w-2/3">
+        <div class="max-w-screen-xxl px-6 p-5 md:p-2 space-y-6 overflow-hidden md:w-2/3 md:order-first">
+            <div class="flex justify-around md:flex-row lg:w-3/4">
                 <nuxt-link class="hidden navbar-brand d-block align-center -mt-3 lg:block" to="/">
                     <img
                         src="/images/devpro.png"

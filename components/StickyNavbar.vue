@@ -1,7 +1,7 @@
 <template>
   <section class="mx-auto antialiased select-none">
     <div class="mx-auto max-w-9xl">
-      <nav class="relative z-50 h-16 bg-gray-800" x-data="{ showMenu: false }">
+      <nav class="relative z-50 h-16" x-data="{ showMenu: false }">
         <div
           class="container relative flex flex-wrap items-center justify-between h-16 mx-auto font-medium lg:justify-center sm:px-4 md:px-2"
         >
@@ -25,35 +25,35 @@
               class="flex-col pt-5 w-full h-auto overflow-hidden rounded-lg select-none bg-gray-800 md:rounded-none md:relative md:flex md:flex-row md:overflow-auto md:bg-transparent"
             >
               <div
-                class="nav-dev flex flex-col items-start justify-center w-full text-center md:mt-0 md:flex-row md:items-center hover:text-white hover:text-extrabold"
+                class="flex flex-col items-start justify-center w-full text-center md:mt-0 md:flex-row md:items-center hover:text-white hover:text-extrabold"
               >
                 <a
-                  class="inline-block cursor-pointer w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
-                  @click="goToSection('benefit')"
+                  href="#"
+                  class="inline-block w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
                 >
                   Benefit
                 </a>
                 <a
-                  class="inline-block cursor-pointer w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
-                  @click="goToSection('feature')"
+                  href="#"
+                  class="inline-block w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
                 >
                   Fitur
                 </a>
                 <a
-                  class="inline-block cursor-pointer w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
-                  @click="goToSection('workshop')"
+                  href="#"
+                  class="inline-block w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
                 >
                   Workshop
                 </a>
                 <a
-                  class="inline-block cursor-pointer w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
-                  @click="goToSection('tools')"
+                  href="#"
+                  class="inline-block w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
                 >
                   Tools
                 </a>
                 <a
-                  class="inline-block cursor-pointer w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
-                  @click="goToSection('mentors')"
+                  href="#"
+                  class="inline-block w-full px-6 py-2 mx-0 font-semibold text-left text-white md:w-auto md:px-0 md:mx-2 hover:text-gray-300 xl:mx-7 md:text-center"
                 >
                   Pengajar
                 </a>
@@ -65,8 +65,8 @@
                   class="inline-flex w-100 shadow-sm md:rounded-full md:w-auto"
                 >
                   <a
-                    class="flex justify-center cursor-pointer px-60 py-3 text-md font-bold leading-4 text-black transition duration-150 ease-in-out bg-white md:px-3 md:w-auto md:rounded-full lg:px-10 btn-daftar"
-                    @click="goToSection('register')"
+                    href="#"
+                    class="flex justify-center px-60 py-3 text-md font-bold leading-4 text-black transition duration-150 ease-in-out bg-white md:px-3 md:w-auto md:rounded-full lg:px-10 hover:bg-gray-300"
                   >
                     Daftar
                   </a>
@@ -125,10 +125,6 @@ export default {
     clickMenu() {
       this.showMenu = !this.showMenu;
       console.log(this.showMenu);
-    },
-    goToSection(section) {
-      var elmnt = document.getElementById(section);
-      elmnt.scrollIntoView(true);
     }
   }
 };
@@ -137,13 +133,5 @@ export default {
 <style>
 .show {
   display: block;
-}
-
-.nav-dev a:hover {
-  color: #c198f7;
-}
-
-.btn-daftar:hover {
-  background-color: #c198f7;
 }
 </style>

@@ -1,14 +1,5 @@
 <template>
   <div class="relative py-10 md:py-20 bg-workshop">
-    <!-- <div class="absolute z-0 w-full hidden md:block xl:top-32">
-      <div class="overflow-hidden">
-        <img
-          src="/images/banner2.svg"
-          class="hidden xl:block object-cover h-full"
-          style="height: 100%;"
-        />
-      </div>
-    </div> -->
     <div
       class="relative z-10 text-white text-center w-full justify-center items-center mx-auto"
     >
@@ -94,7 +85,6 @@ export default {
 }
 
 .bg-workshop {
-  /* background-color: #c198f7; */
   background-image: linear-gradient(to right, #c198f7, #005ad9);
 }
 

@@ -1,22 +1,19 @@
 <template>
-  <section class="bg-gray-100 px-5 pb-10 lg:py-20">
+  <section class="bg-gray-100 px-5 py-20">
     <div class="flex flex-col items-center max-w-8xl xl:flex-col xl:mx-auto">
-      <div class="max-w-2xl xl:w-1/3">
-        <h1
-          class="text-center font-bold text-test xl:text-center"
-          style="font-size: 42px;"
-        >
+      <div class="text-center max-w-2xl xl:w-1/3">
+        <h1 class="tools-title text-test">
           Devpro Tools
         </h1>
         <div class="primary-line bg-test mx-auto xl:mx-auto"></div>
-        <p class="text-lg text-center text-gray-800 mb-5 xl:text-center">
+        <p class="text-lg text-gray-800 mb-5 xl:text-center">
           Kuasai Bahasa Pemrograman dan Framework yang Diperlukan untuk Menjadi
           Web Developer Profesional
         </p>
       </div>
 
       <div
-        class="container bg-white justify-center p-4 mx-auto rounded-xl md:shadow-xl lg:p-10 xl:w-2/3 xl:max-w-3xl"
+        class="container bg-white justify-center p-4 mx-auto rounded-xl md:shadow-2xl lg:p-10 xl:w-2/3 xl:max-w-3xl"
       >
         <div
           class="max-w-4xl mx-auto flex flex-wrap items-center justify-center gap-y-8"
@@ -115,4 +112,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.tools-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+</style>

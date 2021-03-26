@@ -6,15 +6,13 @@
         <div class="primary-line bg-test mx-auto"></div>
       </div>
       <div class="relative z-10 px-2 justify-center items-center lg:flex">
-        <FeatureCard 
-          v-for="user in users"
-          :key="user.id"
-          :reviewer = "user"
+        <FeatureCard
+          v-for="feature in features"
+          :key="feature.id"
+          :fitur="feature"
         />
       </div>
-
     </div>
-
   </div>
 </template>
 
@@ -22,33 +20,35 @@
 export default {
   data() {
     return {
-      users: [
+      features: [
         {
-          "id" : 1,
-          "name" : "Berpengalaman",
-          "photo" : "fitur-1.jpg",
-          "review" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores."
+          id: 1,
+          name: "Berpengalaman",
+          photo: "fitur-1.jpg",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores."
         },
         {
-          "id" : 2,
-          "name" : "Modern Development",
-          "photo" : "fitur-2.jpg",
-          "review" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores."
+          id: 2,
+          name: "Modern Development",
+          photo: "fitur-2.jpg",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores."
         },
         {
-          "id" : 3,
-          "name" : "Menyesuaikan Dunia Kerja",
-          "photo" : "fitur-3.jpg",
-          "review" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+          id: 3,
+          name: "Menyesuaikan Dunia Kerja",
+          photo: "fitur-3.jpg",
+          description:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit."
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
-
 .fitur-title {
   font-size: 36px;
   font-weight: bold;
@@ -60,5 +60,4 @@ export default {
   margin-top: 0.6rem;
   margin-bottom: 1rem;
 }
-
 </style>

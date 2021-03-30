@@ -1,7 +1,10 @@
 <template>
   <section class="mx-auto antialiased select-none">
     <div class="mx-auto max-w-9xl">
-      <nav class="relative z-50 h-16 bg-gray-800" x-data="{ showMenu: false }">
+      <nav
+        class="bg-nav relative z-50 h-16 bg-transparent"
+        x-data="{ showMenu: false }"
+      >
         <div
           class="container relative flex flex-wrap items-center justify-between h-16 mx-auto font-medium sm:px-4 md:px-2 lg:justify-center"
         >
@@ -115,11 +118,15 @@
 </template>
 
 <script>
+// import func from "vue-editor-bridge";
 export default {
   data() {
     return {
       showMenu: false
     };
+  },
+  mounted() {
+    this.scrollNavbar();
   },
   methods: {
     clickMenu() {
@@ -129,6 +136,18 @@ export default {
     goToSection(section) {
       var elmnt = document.getElementById(section);
       elmnt.scrollIntoView(true);
+    },
+    scrollNavbar() {
+      document.addEventListener("scroll", function() {
+        const bgNav = document.querySelector(".bg-nav");
+        bgNav.classList.remove("bg-transparent");
+        bgNav.classList.add("bg-gray-800");
+
+        if (window.pageYOffset === 0) {
+          bgNav.classList.add("bg-transparent");
+          bgNav.classList.remove("bg-gray-800");
+        }
+      });
     }
   }
 };
